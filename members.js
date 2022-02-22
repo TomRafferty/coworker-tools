@@ -1,11 +1,48 @@
-//placeholder data:
-/*
-first name ,last name ,job title         ,department  ,manager  ,location  ,first aider ,user slack ,timezone
-John       ,Doe       ,Software Engineer ,Engineering ,null     ,Glasgow   ,No          ,johndoe    ,America/Los_Angeles
-Jane       ,Doe       ,Software Engineer ,Engineering ,John Doe ,Leeds     ,No          ,janedoe    ,America/Los_Angeles
-Bob        ,Doe       ,Software Engineer ,Engineering ,Jane Doe ,Cape Town ,No          ,bobdoe     ,America/Los_Angeles
-Sally      ,Doe       ,Software Engineer ,Engineering ,Jane Doe ,Rome      ,No          ,sallydoe   ,America/Los_Angeles
-*/
-const members = [];
+const members = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    jobTitle: "Software Engineer",
+    department: "Engineering",
+    manager: "null",
+    location: "Glasgow",
+    firstAider: "no",
+    userSlack: "johndoe",
+    timezone: "America/Los_angeles",
+  },
+  {
+    firstName: "Jane",
+    lastName: "Doe",
+    jobTitle: "Software Engineer",
+    department: "Engineering",
+    manager: "John Doe",
+    location: "Leeds",
+    firstAider: "no",
+    userSlack: "janedoe",
+    timezone: "America/Los_angeles",
+  },
+  {
+    firstName: "Bob",
+    lastName: "Doe",
+    jobTitle: "Software Engineer",
+    department: "Engineering",
+    manager: "Jane Doe",
+    location: "Cape Town",
+    firstAider: "no",
+    userSlack: "bobdoe",
+    timezone: "America/Los_angeles",
+  },
+  {
+    firstName: "Sally",
+    lastName: "Doe",
+    jobTitle: "Software Engineer",
+    department: "Engineering",
+    manager: "Jane Doe",
+    location: "Rome",
+    firstAider: "no",
+    userSlack: "sallydoe",
+    timezone: "America/Los_angeles",
+  },
+];
 
 module.exports = members;
